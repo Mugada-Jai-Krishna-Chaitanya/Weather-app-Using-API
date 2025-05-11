@@ -56,3 +56,61 @@ body{
     background-color: rgb(230, 222, 222);
     transition: 0.5s;
 }
+
+.body{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.body img{
+    /* position: relative; */
+    padding-bottom: 10px;
+    width: 60%;
+}
+
+.temperature{
+    display: block;
+}
+
+
+
+.temperature{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+
+.weather-details{
+    width: 100%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.humidity, .wind-speed{
+    display: flex;
+    align-items: center;
+}
+
+.humidity i, .wind-speed i{
+    font-size: 1.3rem;
+}
+
+.text{
+    padding-left: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
